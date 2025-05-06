@@ -18,5 +18,8 @@ class PortfolioController extends Controller
         return view('projets');
     }
 
-    
+    public function contact(){
+        return view('contact');
+    }
+
 }
