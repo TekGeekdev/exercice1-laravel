@@ -13,4 +13,10 @@ class PortfolioController extends Controller
     public function resume(){
         return view('resume');
     }
+
+    public function projets(){
+        return view('projets');
+    }
+
+    
 }

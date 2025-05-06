@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/home', [PortfolioController::class, 'index']);
 Route::get('/resume', [PortfolioController::class, 'resume']);
-Route::get('/home', [PortfolioController::class, 'index']);
+Route::get('/projets', [PortfolioController::class, 'projets']);
 Route::get('/home', [PortfolioController::class, 'index']);
