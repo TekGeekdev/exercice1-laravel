@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [PortfolioController::class, 'index']);
+Route::get('/resume', [PortfolioController::class, 'resume']);
+Route::get('/home', [PortfolioController::class, 'index']);
+Route::get('/home', [PortfolioController::class, 'index']);
