@@ -22,4 +22,9 @@ class PortfolioController extends Controller
         return view('contact');
     }
 
+    public function storeContact(Request $request){
+        // dump($request->all());
+        return view('contact', ['data' => $request]);
+    }
+
 }
