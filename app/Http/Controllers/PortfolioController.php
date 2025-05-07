@@ -23,6 +23,7 @@ class PortfolioController extends Controller
     }
 
     public function storeContact(Request $request){
+        // print_r($request);
         // dump($request->all());
         return view('contact', ['data' => $request]);
     }

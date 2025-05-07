@@ -28,7 +28,7 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                             <li class="nav-item"><a class="nav-link" href="/home">Acceuil</a></li>
                             <li class="nav-item"><a class="nav-link" href="/resume">À propos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/projets">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/projets">Projets</a></li>
                             <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                         </ul>
                     </div>
